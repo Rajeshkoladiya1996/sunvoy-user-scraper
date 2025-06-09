@@ -1,0 +1,30 @@
+{
+  "name": "sunvoy-scraper",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "engines": {
+    "node": "22.16.0"
+  },
+  "scripts": {
+    "start": "nodemon --watch src --ext ts --exec ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "fs-extra": "^11.3.0",
+    "nodemon": "^3.1.10",
+    "puppeteer": "^24.10.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^22.15.30",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
